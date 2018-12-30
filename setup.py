@@ -6,7 +6,8 @@ setup(
     maintainer="Jacob Jäger",
     version="0.0.1",
     description="Display pictures in a terminal using x256 color codes",
-    py_modules=['metasyntax'],
+    py_modules=['x256_img'],
+    install_requires=["x256", "pillow"],
     classifiers=[
         "Development Status :: 3 - Alpha",
         "License :: OSI Approved :: MIT License",
